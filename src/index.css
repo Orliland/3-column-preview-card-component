@@ -1,13 +1,40 @@
 :root {
+  height: 100%;
   font-family: "Lexend Deca", sans-serif;
   font-size: 62.5%;
 
   /* background, headings, buttons */
   --very-light-gray: hsl(0, 0%, 95%);
+
+  /* Sedans background color */
+  --bright-orange: hsl(31, 77%, 52%);
+
+  /* Suvs background color  */
+  --dark-cyan: hsl(184, 100%, 22%);
+
+  /* Luxury background color */
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Vehicles names */
+  --title-color: #ffffff;
+  --title: 700 4rem "Big Shoulders Display", sans-serif;
+
+  /* Paragraphs */
+  --text-color: hsla(0, 0%, 100%, 0.75);
+  --text: 400 1.5rem/2.5rem "Lexend Deca", sans-serif;
 }
 
 body {
   margin: 0;
+  height: 100%;
+}
+
+#root {
+  padding: 8.8rem 2.4rem;
+
+  min-height: 100%;
+  display: grid;
+  place-items: center;
 
   background-color: var(--very-light-gray);
 

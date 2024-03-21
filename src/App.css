@@ -59,6 +59,16 @@
   font: var(--text);
 }
 
+.button:hover {
+  cursor: pointer;
+
+  border: 0.2rem solid var(--title-color);
+  padding: 1rem 3rem;
+
+  color: var(--title-color);
+  background-color: transparent;
+}
+
 @media (min-width: 1440px) {
   #root {
     padding: 0;

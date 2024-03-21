@@ -1,0 +1,15 @@
+:root {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 62.5%;
+
+  /* background, headings, buttons */
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  margin: 0;
+
+  background-color: var(--very-light-gray);
+
+  font-size: 1.6rem;
+}
